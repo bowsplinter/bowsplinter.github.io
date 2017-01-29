@@ -1,16 +1,16 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Vivek Kalyan
+subtitle: Me, myself and I
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Hi there!
+I am Vivek Kalyan, second year student at SUTD. I am majoring in Information Systems Technology and Design (ISTD) and am planning to specialize in Machine Learning/AI. 
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+![alt text](/img/stl.jpg){:class="pull-right"}
 
-What else do you need?
+I love making things and exploring with new technology. For example, the image is a 3D model of me scanned by a attaching a Kinnect to a KUKA industrial robot and writing a script to move its arm in an arc around my body.
 
-### my history
+I have experience building a variety of applications from a full backend content management system for a startup in France to an iOS and Android application for SUTD admissions office. I am currently exploring the areas of artificial intelligence and autonomous vehicles, working on a simultaneous localization and mapping (SLAM) project.
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+When I am not in front of my laptop, I can be found on the field playing soccer. I am the Vice President of SUTD's Soccer team and also participate regularly with a sunday league team. 
