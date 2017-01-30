@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: "exploreSUTD"
 card-img: /img/sutd.jpeg
 ---
