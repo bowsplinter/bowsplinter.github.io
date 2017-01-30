@@ -8,6 +8,8 @@
   --color-three: #91AA9D;
   --color-four: #D1DBBD;
   --color-five: #FCFFF5;
+  --color-six: #8E2800;
+  --color-seven: #B64926;
 }
 
 
@@ -24,18 +26,18 @@ p {
 }
 p a {
   /* text-decoration: underline */
-  color: #008AFF;
+  color: var(--color-six);
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
 a {
-  color: #008AFF;
+  color: var(--color-six);
 }
 a:hover,
 a:focus {
-  color: #0085a1;
+  color: var(--color-seven);
 }
 blockquote {
   color: #808080;
