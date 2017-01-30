@@ -119,6 +119,12 @@ paginate_path: "blog/page:num"
 kramdown:
   input: GFM
 
+# Projects
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title
+
 # Default YAML values (more information on Jekyll's site)
 defaults:
   -
