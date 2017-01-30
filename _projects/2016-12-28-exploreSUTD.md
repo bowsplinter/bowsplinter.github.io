@@ -6,12 +6,17 @@ card-img: /img/sutd.jpeg
 
 Collaborators: Teo Si-Yan, Nicholas Ng
 
-An iOS and Android application developed for SUTD Admissions Office to provide information and attract potential students to SUTD. We pitched for and won the contract to develop the application which will be released to the public during Open House on 4th March 2017. The application was built using Ionic 2 framework with a backend system in Ruby on Rails.
-  
+exploreSUTD is a mobile application developed for SUTD Admissions Office. It targets potential students, giving them information to make an informed choice. We built the application using **Ionic 2**, an Angular JS 2 framework. A **Ruby on Rails** server supports the application.
+
+Aiming to engage students, exploreSUTD has a Pokemon GO-esque feature. Students can explore the school, collecting collectibles which can be redeemed for prizes. It uses geofencing to track the location of the students.
+
+exploreSUTD also curates student-driven Facebook feeds and blogs, presenting them in a readable manner. Students are able to sync events to their phone and reminders will be sent for upcoming events.
+
+We pitched for and won the contract to develop the application. This was our product video:
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" width="560" height="315"
     src="https://www.youtube.com/embed/lb00lKtt0rg" frameborder="0"
     allowfullscreen=""></iframe>
 </div>
 
-Looking at teenagers shortened attention span, we built an application that is primarily focused on engaging them, with an unique Pokemon GO-esque feature, which allows students to go on a treasure hunt around school to collect collectibles which can later be redeemed for prizes.
+exploreSUTD will be released to the public during SUTD's Open House on 4th March 2017.
