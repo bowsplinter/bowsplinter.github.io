@@ -1,5 +1,10 @@
 ---
 layout: project
 title: Projects
-subtitle: I build stuff in various languages
+
+
+subtitle: I write code in
+speed: 50
+strings: ["Python.","JavaScript.","Java.","C.", "MATLAB.", "HTML.", "CSS.",]
+backdelay: 1000
 ---

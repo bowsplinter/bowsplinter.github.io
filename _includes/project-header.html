@@ -1,4 +1,7 @@
 <!-- TODO this file has become a mess, refactor it -->
+---
+---
+
 
 <!-- Typed.js --> 
 <script src="/js/jquery-1.11.2.min.js"></script>
@@ -6,10 +9,10 @@
 <script>
   $(function(){
     $(".typed").typed({
-      strings: ["Python.","JavaScript.","Java.","C.", "MATLAB.", "HTML.", "CSS.",],
-      typeSpeed: 50,
+      strings: {{ page.strings | jsonify}},
+      typeSpeed: {{ page.speed | jsonify}},
       loop: true,
-      backDelay: 1000
+      backDelay: {{ page.backdelay | jsonify}}
     });
   });
 </script>
@@ -68,7 +71,7 @@
       {% if page.subtitle %}
         {% if include.type == "page" %}
             <hr class="small">
-            <span class="{{ include.type }}-subheading">I write code in <span class="typed" style="color:#a50509"></span></span>
+            <span class="{{ include.type }}-subheading">{{page.subtitle}} <span class="typed" style="color:#a50509"></span></span>
       {% else %}
       <h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
       {% endif %}
