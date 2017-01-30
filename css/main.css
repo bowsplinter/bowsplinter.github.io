@@ -443,7 +443,7 @@ footer .theme-by {
   background-size: cover;
   -o-background-size: cover;
   margin-top: 51px; /* The small navbar is 50px tall + 1px border */
-  margin-bottom: 35px;
+  margin-bottom: 0px;
 }
 .intro-header.big-img  .big-img-transition {
   position: absolute;
@@ -586,9 +586,9 @@ footer .theme-by {
   font-weight: 800;
   letter-spacing: 1px;
   padding: 10px 5px;
-  background: #FFF;
+  background: var(--color-one);
   border-radius: 0;
-  color: #404040;
+  color: var(--color-three);
 }
 @media only screen and (min-width: 768px) {
   .pager li a {
@@ -597,8 +597,8 @@ footer .theme-by {
 }
 .pager li a:hover,
 .pager li a:focus {
-  color: #FFF;
-  background: #0085a1;
+  color: var(--color-two);
+  background: var(--color-one);
   border: 1px solid #0085a1;
 }
 
@@ -699,6 +699,9 @@ td.gutter {
   text-align: center;
   padding-bottom: 10%;
 }
+.card:hover .card-img{
+  filter: brightness(50%);
+}
 .card-block {
   position: absolute;
   top: 30%;
@@ -706,4 +709,14 @@ td.gutter {
   width: 100%;
   font-weight: bold;
   color: #fff;
+}
+.card-img {
+  filter: brightness(70%);
+}
+.landing-img {
+  height: 800px;
+  filter: brightness(80%);
+}
+.landing-footer {
+  margin-top: 0px;
 }
