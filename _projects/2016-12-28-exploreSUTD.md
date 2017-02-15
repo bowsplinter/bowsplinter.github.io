@@ -6,7 +6,7 @@ card-img: /img/sutd.jpeg
 
 Collaborators: Teo Si-Yan, Nicholas Ng
 
-exploreSUTD is a mobile application developed for SUTD Admissions Office. It targets potential students, giving them information to make an informed choice. We built the application using **Ionic 2**, an Angular JS 2 framework. A **Ruby on Rails** server supports the application.
+exploreSUTD is a mobile application developed for SUTD Admissions Office. It targets potential students, giving them information to make an informed choice. We built the application using Ionic, an **Angular JS** framework.
 
 Aiming to engage students, exploreSUTD has a Pokemon GO-esque feature. Students can explore the school, collecting collectibles which can be redeemed for prizes. It uses geofencing to track the location of the students.
 
