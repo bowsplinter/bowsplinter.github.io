@@ -1,8 +1,7 @@
 ---
 title: "Hawker Centres in Singapore"
 author: "Vivek Kalyan"
-date: "30/03/2017"
-output: html_document
+date: "05/04/2017"
 ---
 
 
@@ -101,7 +100,7 @@ ggplot(tenders[,list(price=mean(priceM2)), by=areaNum], aes(areaNum, price)) +
 
 ![plot of chunk unnamed-chunk-7](/img/rfigures/rsource/hawker-centres/2017-04-05-hawker-centres-singapore/unnamed-chunk-7-1.png)
 
-We see that the highest bidded stalls are those with around 5m<sup>2</sup> in area. This is not surprising that these stalls have the highest demand as most stall owners would not require a large stall to prepare their food. 
+We see that the highest bid stalls are those with around 5m<sup>2</sup> in area. This is not surprising that these stalls have the highest demand as most stall owners would not require a large stall to prepare their food. 
 
 #### Is there a relation between type of stall and price/m<sup>2</sup>?
 
@@ -274,4 +273,4 @@ plot(centres.ppp, col="white", add=T)
 
 We see that the areas with high population and low hawker centres are places such as Woodlands, Chua Chu Kang, Hougang. These are generally newer, less mature estates which could account for the lack of hawker centres at these areas.
 
-To validate that claim we would neeed to get data on when the hawker centres opened and when estates become 'mature'. To decide when estates become mature, we can look at the population sizes over time and choose a certain density at which we consider it to be mature. Once we have that data, we can check if there is indeed a correlation.
+To validate that claim we would need to get data on when the hawker centres opened and when estates become 'mature'. To decide when estates become mature, we can look at the population sizes over time and choose a certain density at which we consider it to be mature. Once we have that data, we can check if there is indeed a correlation.

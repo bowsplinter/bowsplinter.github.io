@@ -6,7 +6,7 @@ title: "Debugging in python using print statements"
 Note: This is a subset of some resources I prepared as a Teaching Assistant for SUTD's Digital World Students
 
 ## Debugging
-This is the most powerfull skill in programming that is not being taught in class. Debugging is the art of understanding what your program is doing vs what you expect the program to do. And using print statements allows you to quickly and conveniently check your code.
+This is the most powerful skill in programming that is not being taught in class. Debugging is the art of understanding what your program is doing vs what you expect the program to do. And using print statements allows you to quickly and conveniently check your code.
 
 Here are some guidelines to follow when you test your code:
 
