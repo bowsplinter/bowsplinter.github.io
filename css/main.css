@@ -3,12 +3,25 @@
 /* --- General --- */
 
 :root {
+  /* navbar, footer, pager bg*/
   --color-one: #193441;
+
+  /* navbar, footer, pager: links (hover)*/
   --color-two: #3E606F;
+  
+  /* navbar, footer, pager: links (hover)*/
   --color-three: #91AA9D;
+
+  /* body bg*/
   --color-four: #D1DBBD;
+
+  /* unused*/
   --color-five: #FCFFF5;
+  
+  /* body: links*/
   --color-six: #8E2800;
+  
+  /* body: links (hover)*/
   --color-seven: #B64926;
 }
 
