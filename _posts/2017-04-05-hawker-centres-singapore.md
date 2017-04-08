@@ -271,6 +271,6 @@ plot(centres.ppp, col="white", add=T)
 
 ![plot of chunk unnamed-chunk-21](/img/rfigures/rsource/hawker-centres/2017-04-05-hawker-centres-singapore/unnamed-chunk-21-1.png)
 
-We see that the areas with high population and low hawker centres are places such as Woodlands, Chua Chu Kang, Hougang. These are generally newer, less mature estates which could account for the lack of hawker centres at these areas.
+We see that the areas with high population and low hawker centres are places such as Woodlands, Chua Chu Kang, Hougang. Considering that our data is created from tender notices from 2012-2017, it is possible that hawker centres at these locations did not have tenders for their stalls.
 
-To validate that claim we would need to get data on when the hawker centres opened and when estates become 'mature'. To decide when estates become mature, we can look at the population sizes over time and choose a certain density at which we consider it to be mature. Once we have that data, we can check if there is indeed a correlation.
+This data exploration could be useful in determining where Singapore Government can open hawker centres and how much a prospective vendor should bid to apply for a tender.
