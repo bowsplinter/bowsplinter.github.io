@@ -76,7 +76,7 @@ tenders[centre=="BLK 51 OLD AIRPORT ROAD OLD AIRPORT ROA",
 
 We then format the string data into manipulatable data for bid, data and area.
 
-Some of the area data is badly formated, with out of position decimal places or extra spaces in between the numbers. We strip the string of all decimal places and spaces, convert numerically and divide by 100 to get the accurate numeric value.
+Some of the area data is badly formatted, with out of position decimal places or extra spaces in between the numbers. We strip the string of all decimal places and spaces, convert numerically and divide by 100 to get the accurate numeric value.
 
 ```{r}
 tenders[,bidNum:=as.numeric(gsub(bid,pattern="\\$|,", replacement="")),]
