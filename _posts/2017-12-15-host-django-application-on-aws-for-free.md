@@ -196,7 +196,7 @@ server {
   }
 ```
 
-`$ sudo ln -s /etc/nginx/sites-available/your_app /etc/nginx/sites-enabled/`
+`$ sudo ln -s /etc/nginx/sites-available/your_app/etc/nginx/sites-enabled/`
 
 `$ sudo nginx -t`
 
@@ -208,7 +208,7 @@ Install gunicorn and run application (Make sure wsgi.py file is serving your pro
 
 `$ pip install guincorn`
 
-`$ gunicorn dboard.wsgi:application - bind 127.0.0.1`
+`$ gunicorn your_app.wsgi:application - bind 127.0.0.1`
 
 If you visit your Elastic IP/domain you should now see your application running!
 
@@ -216,7 +216,7 @@ However this requires you to be connected to the server to run it. To solve, thi
 
 `$ tmux`
 
-`$ gunicorn dboard.wsgi:application - bind 127.0.0.1`
+`$ gunicorn your_app.wsgi:application - bind 127.0.0.1`
 
 `<Cntrl-B d>`
 
