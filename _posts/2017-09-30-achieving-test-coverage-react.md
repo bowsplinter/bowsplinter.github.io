@@ -1,12 +1,12 @@
 ---
 title: "How to achieve 100% test coverage in React"
 author: "Vivek Kalyan"
-date: "30/08/2017"
+date: "30/09/2017"
 ---
 
-During my internship at Gametize, I spent a considerable portion of my effort ensuring that the application being created was well tested. The two building blocks for testing I used were [Jest](https://facebook.github.io/jest/) and [Enzyme](http://airbnb.io/enzyme/). Jest is a testing framework for JavaScript applications, while Enzyme is a utility to easily mount React components. 
+During my internship at Gametize, I spent a considerable portion of my effort ensuring that the application being created was well tested. The two building blocks for testing I used were [Jest](https://facebook.github.io/jest/) and [Enzyme](http://airbnb.io/enzyme/). Jest is a testing framework for JavaScript applications, while Enzyme is a utility to easily mount React components.
 
-There are many good guides for Jest and Enzyme (their documentations are a great starting point) I will instead share some non-obvious tips I discovered after using them for 4 months. 
+There are many good guides for Jest and Enzyme (their documentations are a great starting point) I will instead share some non-obvious tips I discovered after using them for 4 months.
 
 Note: this assumes you used `create-react-app` to create your project and thus already have basic testing functionality such as watch available. If not, that should be the first thing to setup so that you can instant feedback on changes.
 
@@ -149,7 +149,7 @@ it("handles submit function (API FAILURE)", () => {
 
 ## That elusive 5%
 
-Sometimes some functions/branches in JS are practically impossible to test. And it is important not to waste time writing trivial tests. But, an coverage that shows 95% is much less satisfying than one that shows 100%. We can use `/*istanbul ignore next*/` to ignore the next block in your code. Istanbul is the coverage tool used by Jest, and it can be [granularly controlled](https://github.com/gotwarlost/istanbul/blob/master/ignoring-code-for-coverage.md) over what it ignores. 
+Sometimes some functions/branches in JS are practically impossible to test. And it is important not to waste time writing trivial tests. But, an coverage that shows 95% is much less satisfying than one that shows 100%. We can use `/*istanbul ignore next*/` to ignore the next block in your code. Istanbul is the coverage tool used by Jest, and it can be [granularly controlled](https://github.com/gotwarlost/istanbul/blob/master/ignoring-code-for-coverage.md) over what it ignores.
 
 
 ## Running tests before commits
@@ -188,6 +188,6 @@ Note: to use this in conjunction with [Prettier](https://github.com/prettier/pre
 
 ### Closing remarks
 
-Tests can seem to be a very daunting task, especially with the seemingly contorted steps one has to go through to test some of the components. I never really enjoyed writing tests (I just want to build cool stuff!!) but I was immensely grateful when I had to refactor a large portion of the project 3 months into my internship. What could have possibly been an week long exercise was done in less than a day due to the confidence that the tests provided. 
+Tests can seem to be a very daunting task, especially with the seemingly contorted steps one has to go through to test some of the components. I never really enjoyed writing tests (I just want to build cool stuff!!) but I was immensely grateful when I had to refactor a large portion of the project 3 months into my internship. What could have possibly been an week long exercise was done in less than a day due to the confidence that the tests provided.
 
 PS: I never actually achieved 100% test coverage.
