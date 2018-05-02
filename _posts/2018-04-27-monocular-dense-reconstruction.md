@@ -9,7 +9,7 @@ Authors: Sanjay Pushparajan, Vivek Kalyan
 
 ## Motivation
 
-With the rising commoditisation of mobile augmented reality, there is an increasing need to model the geometric world. This allows for more advanced features such as object occlusion, pose tracking, semantic segmentation and eventually world-scale localisation. With this in mind, the goal of this project is to implement monocular dense reconstruction on mobile devices for small objects. 
+With the rising commoditisation of mobile augmented reality, there is an increasing need to model the geometric world. This allows for more advanced features such as object occlusion, pose tracking, semantic segmentation and eventually world-scale localisation. With this in mind, the goal of this project is to implement monocular dense reconstruction on mobile devices for small objects.
 
 While there are many solutions that involve uploading high resolution photos for cloud processing, advances in mobile processors and state-of-the-art work combining depth prediction using machine learning and traditional structure-from-motion pipelines are making local mesh reconstruction a reality.
 
@@ -28,6 +28,26 @@ The second component is in Objective-C. This serves as an bridge between the Swi
 The third and final component is the C++ component. This is where the majority of the calculations occur. The openCV library is used for some of its primitives and functions. However, note that despite openCV having a SFM module, our work implements SFM instead of using the library.
 
 ### CNN-depth prediction
-A CNN that was trained on self-driving car environments was used to predict the depth map of images. 
+A CNN that was trained on self-driving car environments was used to predict the depth map of images.
 
 ## Results
+
+**Feature Detection**
+
+<img class="center-block" style="padding: 10px 30px;" src="/img/gnv-feature-detection.png">
+
+**Feature Matching**
+
+<img class="center-block" style="padding: 10px 30px;" src="/img/gnv-feature-matching.png">
+
+**Triangulation**
+
+<img class="center-block" style="padding: 10px 30px;" src="/img/gnv-match-triangulation.png">
+
+**Point Cloud**
+
+<img class="center-block" style="padding: 10px 30px;" src="/img/gnv-point-cloud.png">
+
+**CNN Depth Prediction**
+
+<img class="center-block" style="padding: 10px 30px;" src="/img/gnv-cnn-slam.png">
