@@ -41,9 +41,9 @@ avatar: "/img/avatar.jpg"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Vivek Kalyan
-  email: "contact@vivekkalyan.com"
+  email: "hello@vivekkalyan.com"
   facebook: yourname  # eg. daattali
-  github: bowsplinter    # eg. daattali
+  github: vivekkalyan    # eg. daattali
   twitter: vivekkalyansk   # eg. daattali
   reddit: yourname    # eg. daattali
   google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925

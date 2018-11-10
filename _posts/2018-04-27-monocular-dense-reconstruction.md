@@ -5,7 +5,7 @@ title: "Monocular Dense Reconstruction"
 
 Authors: Sanjay Pushparajan, Vivek Kalyan
 
-[[Github]](https://github.com/bowsplinter/mono-reconstruction)
+[[Github]](https://github.com/vivekkalyan/mono-reconstruction)
 
 ## Motivation
 

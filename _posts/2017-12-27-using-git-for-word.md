@@ -39,4 +39,4 @@ The article tells us to commit the `.gitattributes` file for each repository we 
 
 And that's it! 
 
-Note: The article also mentions about comparing revisions by word. I left that out because I do it differently but I don't think either method is better or worse. Refer to my [dotfiles](https://github.com/bowsplinter/dotfiles/blob/master/git/.gitconfig) for how I set mine up. 
+Note: The article also mentions about comparing revisions by word. I left that out because I do it differently but I don't think either method is better or worse. Refer to my [dotfiles](https://github.com/vivekkalyan/dotfiles/blob/master/git/.gitconfig) for how I set mine up. 
